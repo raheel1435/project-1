@@ -212,6 +212,14 @@ p {
         width: inherit;
         text-align: center;
     }
-    
+    #chariots {
+        column-count: 3;
+    }    
+}
+
+@media screen and (max-width: 800px) {
+    #chariots {
+        column-count: 2;
+    }
 }
 
