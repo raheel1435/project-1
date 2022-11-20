@@ -183,7 +183,7 @@ p {
 }
 
 body {
-    background: #131315;
+    background: #f8f7f5;
     font-family: var(--font-style);
 }
 .login-box {
@@ -274,6 +274,19 @@ body {
     color: #8F7CEC;
     text-decoration: none;
 }
+.text-input {
+    background:transparent;
+    color:#fafafa;
+    width:100%;
+    height:25px;
+    margin:5px 0 20px;
+    border:1px solid #fafafa;
+    border-radius:2px
+}
+.text-input:hover {
+    border-color:#f16c6b;
+}
+
 
 
 /* Media queries */
