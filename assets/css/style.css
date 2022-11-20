@@ -152,5 +152,26 @@ p {
     width: 100%;
 }
 
+/* Media queries */
 
+/* for larger to medium screen size for 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #introduction{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    h2 {
+        padding: 30px 0;
+        margin: 0;
+    }
+    p {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    hr {
+        display: none;
+    }
+}
 
