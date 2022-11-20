@@ -139,6 +139,18 @@ p {
         padding: 5%;
         color:#3a3a3a;
     }
+/* chariots photos */
+
+#chariots {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#chariots > img {
+    width: 100%;
+}
 
 
 
