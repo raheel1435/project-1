@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Nastaliq+Urdu&family=Tangerine:wght@700&display=swap');
 
 *{
     margin:0;
@@ -149,6 +149,27 @@ p {
 
 #chariots > img {
     width: 100%;
+}
+
+/* iron chariots details */
+
+#iron-chariots {
+    clear: both;
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+    font-size: 80px;
+    color: #0a0303;
+}
+#chariots-details {
+    clear: both;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: 'Noto Nastaliq Urdu', serif;
+    color: #0a0303;
+    text-justify: auto;
+    direction: rtl !important;
+    font-size: 17px !important;
+    float: right;
 }
 
 /* Media queries */
