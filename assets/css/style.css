@@ -124,6 +124,7 @@ p {
      /* footer */
      footer {
         height:150px;
+        position: relative;
     }
     .social-networks {
         text-align: center;
@@ -153,6 +154,11 @@ p {
 
 /* iron chariots details */
 
+img {
+    clear: both;
+    text-overflow: inherit;
+    position: -ms-page;
+}
 #iron-chariots {
     clear: both;
     padding: 20px 10px 10px 10px;
