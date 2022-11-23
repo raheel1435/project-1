@@ -153,29 +153,21 @@ p {
 }
 
 /* iron chariots details */
+.iron-chariots {
+clear: both;
+padding-top: 30px;
+text-align: center;
+}
 
-img {
-    clear: both;
-    text-overflow: inherit;
-    position: -ms-page;
-}
-#iron-chariots {
-    clear: both;
-    padding: 20px 10px 10px 10px;
-    text-align: center;
-    font-size: 80px;
-    color: #0a0303;
-}
 #chariots-details {
     clear: both;
     padding-left: 0;
     padding-right: 0;
-    font-family: 'Noto Nastaliq Urdu', serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
     color: #0a0303;
     text-justify: auto;
-    direction: rtl !important;
-    font-size: 17px !important;
-    float: right;
+    font-size: 17px;
+    float: left;
 }
 
 /* Sign up */
