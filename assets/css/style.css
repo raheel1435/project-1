@@ -31,7 +31,7 @@ h1, h2 {
     #logo {
         line-height: 1.2em;
         color: #8f7cec;
-        text-shadow: 0 0 #000, 0 1.2em #1095c1;
+        
         overflow: hidden;
         transition: .3s;
     }
