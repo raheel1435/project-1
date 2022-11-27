@@ -14,7 +14,7 @@ body {
 
 /* heading and logo */
 
-h1.h2 {
+h1, h2 {
     font-family: 'Tangerine', cursive; 
     font-weight: 700;
     color:#000;
@@ -23,8 +23,20 @@ h1.h2 {
 
     #logo{
         float: left;
-        font-size: 280%;
+        font-size: 430%;
         margin-left: 30px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #logo {
+        line-height: 1.2em;
+        color: #8f7cec;
+        text-shadow: 0 0 #000, 0 1.2em #1095c1;
+        overflow: hidden;
+        transition: .3s;
+    }
+    #logo:hover {
+        text-shadow: 0 -1.2em #000, 0 0 #1095c1;
     }
 
     /* navigation links */
@@ -68,12 +80,12 @@ h1.h2 {
 
 #video {
     width: 200px;
-    height: 150px;
+    height: 184px;
     position: absolute;
-    padding-left:20px;
-    padding-top: 40px;
-    right:250px;
-    bottom: 30px;
+    padding-left: 35px;
+    padding-top: 54px;
+    right: 269px;
+    bottom: 28px;
     transform: translate(-50%,-50%);
 }
 
@@ -106,11 +118,14 @@ h1.h2 {
 h2 {
     font-family:EB Garamond, sans-serif;
     font-weight:300%;
-    color:#0a0303;
+    color:#8f7cec;
     font-size: 50px;
     margin-left:5%;
-    margin-top: 5%;
+    clear: both;
+    text-align: center;
+
 }
+
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
@@ -124,7 +139,6 @@ p {
      /* footer */
      footer {
         height:150px;
-        position: relative;
     }
     .social-networks {
         text-align: center;
@@ -143,9 +157,9 @@ p {
 
 #chariots {
     clear: both;
-    line-height: 0;
+    line-height: 3;
     column-count: 4;
-    column-gap: 0;
+    column-gap: 1;
 }
 
 #chariots > img {
@@ -153,21 +167,24 @@ p {
 }
 
 /* iron chariots details */
-.iron-chariots {
-clear: both;
-padding-top: 30px;
-text-align: center;
-}
 
+#iron-chariots {
+    clear: both;
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+    font-size: 80px;
+    color: #0a0303;
+}
 #chariots-details {
     clear: both;
     padding-left: 0;
     padding-right: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    font-family: 'Noto Nastaliq Urdu', serif;
     color: #0a0303;
     text-justify: auto;
-    font-size: 17px;
-    float: left;
+    direction: rtl !important;
+    font-size: 17px !important;
+    float: right;
 }
 
 /* Sign up */
@@ -185,15 +202,14 @@ body {
     font-family: var(--font-style);
 }
 .login-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    padding: 40px;
-    transform: translate(-50%, -50%);
+    position: relative;
+    clear: both;
+    left: 36%;
+    width: 368px;
+    padding: 48px;
     background: #242026;
     box-shadow: 0 15px 25px rgba(143, 124, 236, 0.7);
-    border-radius: 10px;
+    border-radius: 62px;
 }
 
 .login {
@@ -272,19 +288,6 @@ body {
     color: #8F7CEC;
     text-decoration: none;
 }
-.text-input {
-    background:transparent;
-    color:#fafafa;
-    width:100%;
-    height:25px;
-    margin:5px 0 20px;
-    border:1px solid #fafafa;
-    border-radius:2px
-}
-.text-input:hover {
-    border-color:#f16c6b;
-}
-
 
 
 /* Media queries */
@@ -301,9 +304,18 @@ body {
         margin: 0;
     }
     p {
-        width: 100%;
+        
         float: left;
         padding: 0;
+    }
+    .login-box {
+        position: relative;
+        clear: both;
+      
+        width: 351px;
+        padding: 41px;
+        box-shadow: 0 15px 25px rgb(143 124 236 / 70%);
+        border-radius: 37px;
     }
     hr {
         display: none;
@@ -327,27 +339,33 @@ body {
         font-size: 12px;
     }
     #video {
-        width: 200px;
-        height: 150px;
-        position: absolute;
-        padding-left: 20px;
-        padding-top: 40px;
-        right: 150px;
-        bottom: 30px;
-        transform: translate(-50%,-50%);
+        width: 141px;
+        height: 236px;
     }
 
     #introduction {
-        width: 90%;
+        width: 102%;
         height: 1200px;
         margin-right: 60px;
-        text-align: left;
+        text-align: justify;
     }
 
     h2 {
         width: inherit;
         text-align: center;
     }
+
+    .login-box {
+        position: relative;
+        clear: both;
+        left: 0%;
+        margin: auto;
+        width: 325px;
+        padding: 41px;
+        box-shadow: 0 15px 25px rgb(143 124 236 / 70%);
+        border-radius: 37px;
+    }
+    
     #chariots {
         column-count: 3;
     }    
