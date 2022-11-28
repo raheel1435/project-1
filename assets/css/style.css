@@ -123,6 +123,7 @@ h2 {
     margin-left:5%;
     clear: both;
     text-align: center;
+    margin-top: revert;
 
 }
 
@@ -134,6 +135,7 @@ p {
     letter-spacing: 1px;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 24px;
     }
 
      /* footer */
@@ -303,11 +305,12 @@ body {
         padding: 30px 0;
         margin: 0;
     }
-    p {
-        
+    .intro {
+
         float: left;
         padding: 0;
     }
+
     .login-box {
         position: relative;
         clear: both;
@@ -328,12 +331,13 @@ body {
    #logo {
     font-size: 50px;
     text-align: center;
+    margin-left: -9px;
    }
 
     #menu {
         clear: left;
         float: left;
-        margin-left: 20px;
+        margin-left: 7px;
         margin-bottom: 20px;
         line-height: 25px;
         font-size: 12px;
@@ -344,15 +348,16 @@ body {
     }
 
     #introduction {
-        width: 102%;
+        width: 100%;
         height: 1200px;
         margin-right: 60px;
         text-align: justify;
     }
 
-    h2 {
+    .login {
         width: inherit;
         text-align: center;
+        margin-left: -37px;
     }
 
     .login-box {
@@ -360,7 +365,7 @@ body {
         clear: both;
         left: 0%;
         margin: auto;
-        width: 325px;
+        width: 278px;
         padding: 41px;
         box-shadow: 0 15px 25px rgb(143 124 236 / 70%);
         border-radius: 37px;
