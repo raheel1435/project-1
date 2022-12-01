@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Nastaliq+Urdu&family=Tangerine:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Tangerine:wght@700&display=swap');
 *{
     margin:0;
     padding:0;
@@ -7,14 +6,14 @@
 }
 
 body {
-    font-family:EB Garamond, sans-serif;
+    font-family:'EB Garamond', sans-serif;
     font-weight:300;
     color:#000;
 }
 
 /* heading and logo */
 
-h1, h2 {
+#logo, h2 {
     font-family: 'Tangerine', cursive; 
     font-weight: 700;
     color:#000;
@@ -24,7 +23,7 @@ h1, h2 {
     #logo{
         float: left;
         font-size: 430%;
-        margin-left: 30px;
+        margin-left: 10px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
@@ -53,7 +52,7 @@ h1, h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 25px;
 }
 
 #menu a {
@@ -86,7 +85,7 @@ h1, h2 {
     padding-top: 54px;
     right: 269px;
     bottom: 28px;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-100%);
 }
 
 
@@ -116,21 +115,21 @@ h1, h2 {
 /* introduction */
 
 h2 {
-    font-family:EB Garamond, sans-serif;
+    font-family:'EB Garamond', sans-serif;
     font-weight:300%;
     color:#8f7cec;
-    font-size: 50px;
-    margin-left:5%;
+    font-size: 60px;
+    
     clear: both;
     text-align: center;
     margin-top: revert;
 
 }
 
-p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.intro {
+   
     font-size: 15px;
-    color: #4c4b4b;
+    color: #131212;
     line-height: 28px;
     letter-spacing: 1px;
     margin-left: 10%;
@@ -162,6 +161,8 @@ p {
     line-height: 3;
     column-count: 4;
     column-gap: 1;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #chariots > img {
@@ -170,23 +171,21 @@ p {
 
 /* iron chariots details */
 
-#iron-chariots {
-    clear: both;
-    padding: 20px 10px 10px 10px;
-    text-align: center;
-    font-size: 80px;
-    color: #0a0303;
+.iron-chariots {
+    
+    padding: 17px 3px 0px 0px
+    
 }
-#chariots-details {
-    clear: both;
-    padding-left: 0;
-    padding-right: 0;
-    font-family: 'Noto Nastaliq Urdu', serif;
+#chariots-detail {
+    
     color: #0a0303;
-    text-justify: auto;
-    direction: rtl !important;
-    font-size: 17px !important;
-    float: right;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 24px;
+    font-size: 17px;
+   
 }
 
 /* Sign up */
@@ -201,7 +200,7 @@ p {
 
 body {
     background: #f8f7f5;
-    font-family: var(--font-style);
+    font-family: 'var(--font-style)';
 }
 .login-box {
     position: relative;
@@ -243,8 +242,8 @@ body {
     transition: .5s;
 }
 
-.login-box .user-box input:focus~lable,
-.login-box .user-box input:valid~lable {
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
     top: -85px;
     left: 0;
     color: #8f7cec;
@@ -252,9 +251,10 @@ body {
 }
 
 #submit {
-    padding: 10px 20px;
+    padding: 10px 10px;
     color: #cbbddb;
-    font-size: 16px;
+    font-size: 13px;
+    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
@@ -298,7 +298,7 @@ body {
 @media screen and (max-width: 1200px) {
     #introduction{
         width: 65%;
-        height: 1200px;
+        height: 670px;
         margin: 0 auto;
     }
     h2 {
@@ -331,25 +331,24 @@ body {
    #logo {
     font-size: 50px;
     text-align: center;
-    margin-left: -9px;
+    
    }
 
     #menu {
-        clear: left;
-        float: left;
-        margin-left: 7px;
-        margin-bottom: 20px;
-        line-height: 25px;
+      
+        line-height: 61px;
         font-size: 12px;
     }
+   
     #video {
         width: 141px;
         height: 236px;
+        transform: translate(-50%,-53%);
     }
 
     #introduction {
         width: 100%;
-        height: 1200px;
+        height: 670px;
         margin-right: 60px;
         text-align: justify;
     }
@@ -374,6 +373,9 @@ body {
     #chariots {
         column-count: 3;
     }    
+    h2 {
+        font-size: 50px;
+    }
 }
 
 @media screen and (max-width: 800px) {
